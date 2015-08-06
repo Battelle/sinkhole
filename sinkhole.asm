@@ -1,5 +1,5 @@
 ; memory sinkhole proof of concept
-; hijacks ring -2 execution through the apic overlay attack.
+; hijack ring -2 execution through the apic overlay attack.
 
 ; deployed in ring 0
 
@@ -72,4 +72,3 @@ wrmsr
  
 ; wait for a periodic SMI to be triggered
 jmp $
-
